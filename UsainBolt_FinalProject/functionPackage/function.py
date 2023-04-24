@@ -43,7 +43,6 @@ def decrypt_json():
     with open('english-2.txt') as txt:
         lines = txt.readlines()
         lns = [line.strip() for line in lines]
-    print(lns)
     txtNum = data['Usain Bolt']
     theSearch = []
     # num = -1 as our starting point
