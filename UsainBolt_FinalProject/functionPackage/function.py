@@ -45,7 +45,7 @@ def decrypt_json():
         lns = [line.strip() for line in lines]
     txtNum = data['Usain Bolt']
     theSearch = []
-    # num = -1 as our starting point
+    #num = -1 as our starting point
     num = -1
     for i in lns:
         num +=1
